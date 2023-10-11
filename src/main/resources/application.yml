@@ -1,0 +1,14 @@
+
+
+spring:
+  datasource:
+      driver-class-name: org.postgresql.Driver
+    #  jdbc-url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: '1234'
+    #  pool-size: 30
+
+  profiles:
+    active: development
+
+
